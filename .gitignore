@@ -1,0 +1,160 @@
+# ==========================================
+# Unity
+# ==========================================
+
+.utmp/
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+*.log
+
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# Uncomment if using Asset Store Tools
+# /[Aa]ssets/AssetStoreTools*
+
+# JetBrains Rider
+/[Aa]ssets/Plugins/Editor/JetBrains*
+
+# Visual Studio
+.vs/
+
+# Gradle
+.gradle/
+
+# Unity solution/project files
+ExportedObj/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Unity generated meta debug files
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Crash info
+sysinfo.txt
+
+# Unity Builds
+*.apk
+*.aab
+*.unitypackage
+*.unitypackage.meta
+*.app
+
+# Crashlytics
+crashlytics-build.properties
+
+# Addressables
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+
+# Android Streaming Assets
+/[Aa]ssets/[Ss]treamingAssets/aa.meta
+/[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# ==========================================
+# Python / FastAPI
+# ==========================================
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+
+# Compiled extensions
+*.so
+*.pyd
+*.dll
+
+# Distribution
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Testing
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Type checker
+.mypy_cache/
+.pyre/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+logs/
+*.log
+
+# Environment Variables
+.env
+backend/.env
+
+# ==========================================
+# VS Code
+# ==========================================
+
+.vscode/
+
+# ==========================================
+# Operating System
+# ==========================================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================================
+# Hugging Face / Deployment
+# ==========================================
+
+.cache/
+hf_cache/
+
+# Ignore downloaded knowledge base PDFs
+backend/knowledge_base/*.pdf
+
+# ==========================================
+# Misc
+# ==========================================
+
+*.bak
+*.swp
+*.swo
+*.orig
+
+# ==========================================
+# Keep these tracked
+# ==========================================
+
+!.env.example
+!.gitignore

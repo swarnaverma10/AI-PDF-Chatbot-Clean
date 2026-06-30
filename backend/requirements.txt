@@ -1,0 +1,26 @@
+# ===========================================================
+# AI PDF Chatbot – Python Dependencies
+# ===========================================================
+# Install with:  pip install -r requirements.txt
+# ===========================================================
+
+# ---- Web framework -----------------------------------------
+fastapi==0.115.6
+uvicorn[standard]==0.32.1
+
+# ---- Configuration & validation ----------------------------
+pydantic==2.10.3
+pydantic-settings==2.7.0
+python-dotenv==1.0.1
+
+# ---- HTTP client (OpenRouter – Phase 2+) -------------------
+httpx==0.28.1
+openai==1.58.1
+
+# ---- PDF reading (Phase 3+) --------------------------------
+pdfplumber==0.11.4
+
+# ---- Development / testing utilities -----------------------
+# Uncomment if you add automated tests:
+# pytest==8.3.4
+# httpx   # already listed above; also used by TestClient
